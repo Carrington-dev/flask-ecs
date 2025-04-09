@@ -4,7 +4,7 @@ from flask import jsonify
 @app.route("/")
 def home():
     """
-    Welcome Message
+    Returns a description of the API
     ---
     tags:
       - Basic Views
